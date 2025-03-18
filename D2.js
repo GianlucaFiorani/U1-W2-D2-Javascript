@@ -64,7 +64,7 @@ console.log("Il costo totale è pari a " + totalShoppingCart);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-totalShoppingCart = art1 * 0.2 + art2 * 0.2 + art3 * 0.2;
+totalShoppingCart = art1 - art1 * 0.2 + art2 - art2 * 0.2 + art3 - art3 * 0.2;
 if (freeShipping) {
   console.log("La spedizione è gratuita");
 } else {
