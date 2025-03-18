@@ -195,11 +195,12 @@ me.skills.pop();
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const numToTen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numToTen = [];
+numToTen.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-numToTen.splice(9, 9, 100);
+numToTen.splice(9, 1, 100);
